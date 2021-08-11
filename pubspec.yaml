@@ -9,16 +9,18 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
+  awsome_video_player: ^1.0.8+1
+  camera: ^0.8.1+7
   cupertino_icons: ^1.0.2
   firebase_core: ^1.4.0
   flutter:
     sdk: flutter
+  font_awesome_flutter: ^9.1.0
   google_fonts: ^2.1.0
-  google_sign_in: ^5.0.7
-  shared_preferences: ^2.0.6
   google_ml_kit: ^0.7.0
-  camera: ^0.8.1+7
+  google_sign_in: ^5.0.7
   image_picker: ^0.8.3+2
+  shared_preferences: ^2.0.6
 
 dev_dependencies:
   flutter_test:

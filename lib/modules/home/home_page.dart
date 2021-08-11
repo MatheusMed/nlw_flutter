@@ -76,7 +76,8 @@ class _HomePageState extends State<HomePage> {
             ),
             InkWell(
               onTap: () {
-                Navigator.pushNamed(context, "/barcode");
+                // Navigator.pushNamed(context, "/barcode");
+                Navigator.pushNamed(context, "/insert_boleto");
               },
               child: Container(
                 height: 56,
